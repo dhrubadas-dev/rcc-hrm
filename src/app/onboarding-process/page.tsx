@@ -2,8 +2,8 @@ import ToastButton from "@/components/Buttons/ToastButton";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RCC HRM",
-  description: "Home page of RCC HRM",
+  title: "RCC HRM - Onboarding Process",
+  description: "Onboarding process page of RCC HRM",
 };
 
 const page = () => {

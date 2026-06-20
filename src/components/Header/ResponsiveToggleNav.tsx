@@ -11,7 +11,7 @@ const ResponsiveToggleNav = ({ children }: ResponsiveToggleNavProps) => {
   const [isMobile, setIsMobile] = useState<boolean | null>(null);
 
   useEffect(() => {
-    const screenQuery = window.matchMedia("(max-width: 768px)");
+    const screenQuery = window.matchMedia("(max-width: 1450px)");
 
     const handleScreenChange = () => {
       setIsMobile(screenQuery.matches);
